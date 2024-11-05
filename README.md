@@ -37,8 +37,10 @@ Dataset: https://docs.google.com/spreadsheets/d/1kHqfRxn5TaJKUvykvPVXt2vdw9gOrKI
 
 Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get display on this README. 
 
-![UML Diagram for my project](nameOfImageFileHere.png) 
+![UML Diagram for my project](image.png) 
 
 ## Description 
 
 Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project.
+
+In this project, the code will analyze, sort, and traverse many 1D arrays that have been instantiated using the file reader class and cleaned data that has been divided into multiple text files. We decided to choose the dataset for the periodic table of elements, after choosing the dataset we cleaned some of the data and decided on which collumns we wanted to use. Using the scanner class, the user can interact with the program so that they can tell the program what parameters they want to filter by. The user will be able to filter the elements by every collumn we used: Name, Symbol, Atomic Number, and Group. They will also be bale to print out the groups of all the elements to make sure they write the correct group (Program is case and space sensitive) and print out all the elements just for fun.
